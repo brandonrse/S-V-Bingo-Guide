@@ -5,7 +5,6 @@ description: A goal for obtaining a certain number of in-game trades.
 
 This goal requires you to perform a either two or three of in-game trades.
 
-
 ## Possible in-game trades
 
 ### Trade a Flabébé for a Snom
