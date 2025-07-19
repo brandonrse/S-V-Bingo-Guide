@@ -22,7 +22,7 @@ export default defineConfig({
       sidebar: [
         {
           label: "Getting Started",
-          autogenerate: { directory: "getting-started"}
+          autogenerate: { directory: "getting-started" },
         },
         {
           label: "Evolution Goals",
@@ -31,6 +31,10 @@ export default defineConfig({
         {
           label: "In-Game Trades",
           autogenerate: { directory: "in-game-trades" },
+        },
+        {
+          label: "Path of Legends",
+          autogenerate: { directory: "path-of-legends" },
         },
       ],
     }),
