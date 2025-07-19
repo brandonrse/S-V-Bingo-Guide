@@ -25,8 +25,8 @@ export default defineConfig({
           autogenerate: { directory: "getting-started"}
         },
         {
-          label: "In-Game Trade Goals",
-          autogenerate: { directory: "in-game-trades" },
+          label: "Evolution Goals",
+          autogenerate: { directory: "evolutions" },
         },
       ],
     }),
