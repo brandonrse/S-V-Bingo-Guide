@@ -33,6 +33,10 @@ export default defineConfig({
           autogenerate: { directory: "in-game-trades" },
         },
         {
+          label: "Purchasing Goals",
+          autogenerate: { directory: "purchasing" },
+        },
+        {
           label: "Path of Legends",
           autogenerate: { directory: "path-of-legends" },
         },
