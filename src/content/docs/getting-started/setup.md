@@ -10,15 +10,16 @@ have to play through the whole tutorial.
 
 1. Create a new profile on your switch and start a new game
 2. In settings, turn off automatic saves, nicknames and cutscenes. Set text speed to fast
-3. Get any starter Pokémon. If you want to roll for natures, you can save beforehand and do so.
+3. Get any starter Pokémon. If you want to roll for natures, you can save beforehand and do so
 4. Continue through the tutorial by doing the minimum requirements. That means:<br />
    no **wild encounters**, no extra **trainer battles**, no **item pickups**, and no **additional flying spots**
 5. Finish school
-6. Head to **Mesagoza East Gate** to trigger Arvins phone call
-7. Go to Nurse Joy and heal your party until she stops giving you any hints. Make sure that she gives you at least three uninterrupted heals before going to the next step.
-8. Talk to the TM machine to get the hint out of the way.
-9. Exit Mesagoza through the **South gate** and have a picnic. Click "Make a Sandwich" to get the hint out of the way. Go to Kuraidon/Miraidon and wash it to get rid of that hint, too.
-10. Go back into Mesagoza and head to the center of the city to perform a manual save
+6. Open the PokéDex and click through the hint
+7. Head to **Mesagoza East Gate** to trigger Arvins phone call
+8. Go to Nurse Joy and heal your party until she stops giving you any hints. Make sure that she gives you at least three uninterrupted heals before going to the next step
+9. Talk to the TM machine to get the hint out of the way
+10. Exit Mesagoza through the **South gate** and have a picnic. Click "Make a Sandwich" to get the hint out of the way. Go to Kuraidon/Miraidon and wash it to get rid of that hint, too
+11. Go back into Mesagoza and head to the center of the city to perform a manual save
 
 Your bingo save is now complete! Just be sure to never save over your save file or you'll have to do this process again.
 The center of Mesagoza is where you will start your runs from.
