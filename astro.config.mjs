@@ -33,6 +33,10 @@ export default defineConfig({
           autogenerate: { directory: "in-game-trades" },
         },
         {
+          label: "League Rep Rewards",
+          autogenerate: { directory: "league-rep-rewards" },
+        },
+        {
           label: "Purchasing Goals",
           autogenerate: { directory: "purchasing" },
         },
