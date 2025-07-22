@@ -29,7 +29,7 @@ It is located in the **Center** of the city.
 
 ### Cascaraffa
 
-Cascarrafa has three Chansey Supply Store.
+Cascarrafa has three Food Stores.
 One is located on the **West** side of the **top level**.
 The other two are located on the **West** side of the **lowest level**.
 
