@@ -25,6 +25,10 @@ export default defineConfig({
           autogenerate: { directory: "getting-started" },
         },
         {
+          label: "Catching Goals",
+          autogenerate: { directory: "catch" }
+        },
+        {
           label: "Evolution Goals",
           autogenerate: { directory: "evolutions" },
         },
