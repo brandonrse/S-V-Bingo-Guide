@@ -45,6 +45,10 @@ export default defineConfig({
           autogenerate: { directory: "purchasing" },
         },
         {
+          label: "Victory Road",
+          autogenerate: { directory: "victory-road"}
+        },
+        {
           label: "Path of Legends",
           autogenerate: { directory: "path-of-legends" },
         },
