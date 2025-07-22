@@ -26,5 +26,5 @@ In exchange, they will give you a regular Wooper (Lv. 18) holding a rare candy.
 **Location**: Levincia
 In Levincia, in the middle part by the battle court is a trainer who will ask for a Pincurchin.
 In exchange, they will give you a Haunter (Lv. 25). Since this Haunter is not holding any items, it will evolve.
-You don't have to actually do the evolution for it to count towards the ingame-trade goal.
+You can count this goal after the trade has completed, before the evolution.
 ![Levincia Ingame Trade](/in-game-trades/levinciatrade.jpg)
