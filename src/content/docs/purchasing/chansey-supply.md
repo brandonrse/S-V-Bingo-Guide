@@ -22,7 +22,7 @@ It is located in the **North East** of the city.
 Montenevera has one Chansey Supply Store.
 It is located in the **North West** of the city.
 
-### Cascaraffa
+### Cascarrafa
 
 Cascarrafa has one Chansey Supply Store.
 It is located in the **North East** of the **lowest level** of the City.
