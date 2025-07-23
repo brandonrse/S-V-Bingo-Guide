@@ -23,8 +23,9 @@ You can pick up up a Fire Stone from **Sparkling Dropped Items** in **East Provi
 
 #### Thunder Stone
 
-You can pick up a guaranteed Thunder Stone on top of the **Lighthouse** in **West Province (Area One)**.
+You can pick up a guaranteed Thunder Stone on top of a **Windmill** in **West Province (Area One)**.
 Alternatively, you can get one from **Sparkling Dropped Items** in **East Province (Area Three)**.
+![Thunder Stone](/items/thunder-stone.png)
 
 #### Water Stone
 
