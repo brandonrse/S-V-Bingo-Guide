@@ -18,7 +18,7 @@ The other two are close to the **West Gate**, with one being **North** and one b
 Levincia has one Delibird Presents Store.
 It is located in the **Center** of the city.
 
-### Cascaraffa
+### Cascarrafa
 
 Cascarrafa has two Delibird Presents Store.
 One is located in the **East** of the **middle level** of the city.

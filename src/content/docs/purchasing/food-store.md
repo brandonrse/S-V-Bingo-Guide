@@ -27,7 +27,7 @@ They are both located at the **East Entrance** of the city.
 Alfornada has one Food Store.
 It is located in the **Center** of the city.
 
-### Cascaraffa
+### Cascarrafa
 
 Cascarrafa has three Food Stores.
 One is located on the **West** side of the **top level**.
