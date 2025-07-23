@@ -8,6 +8,6 @@ The trick to this goal is that only female Combee can evolve.
 
 ### Strategy
 
-You can find Combee that are ready for evolution in **West Province (Area One)**,
-just south of **Asado Desert**. If you don't find any female Combee at first,
+You can find Combee pretty reliably in **South Province (Area Two)** around **Cortondo**.
+If you don't find any female Combee at first,
 you can force wild Pokémon to respawn by having a picnic.
