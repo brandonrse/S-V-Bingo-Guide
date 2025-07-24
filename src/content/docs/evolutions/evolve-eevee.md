@@ -34,8 +34,10 @@ On one shore sits an Ominous Black Stake, and on the other, a Water Stone.
 
 #### Leaf Stone
 
-You can get a guaranteed Leaf Stone by finding **10 Sunflora** in Artazon by rerunning **Sunflora Hide and Seek** after beating Brassius and obtaining the Artazon Gym Badge.
+The easiest way to get a leaf stone is by hadding to **Tagtree Thicket** and grabbing it near a cliff. Be sure to come in from the North to avoid a cutscene. 
+You can also get a guaranteed Leaf Stone by finding **10 Sunflora** in Artazon by rerunning **Sunflora Hide and Seek** after beating Brassius and obtaining the Artazon Gym Badge.
 Alternatively, you can pick up up a Leaf Stone from **Sparkling Dropped Items** in **Tagtree Thicket**.
+![Leaf Stone](/items/leaf-stone.png)
 
 #### Ice Stone
 
