@@ -1,0 +1,12 @@
+---
+import MapPreact from "./Map";
+
+const { zoom, location, markers } = Astro.props;
+---
+
+<MapPreact
+  markers={markers}
+  zoom={zoom}
+  location={location}
+  client:only="preact"
+/>

@@ -4,6 +4,7 @@ description: A goal that requires you to capture all five forms of Flabébé
 ---
 
 import { Aside } from "@astrojs/starlight/components";
+import Map from "../../../components/Map.astro";
 
 This goal requires you to capture **five** forms of Flabébé.
 Flabébé forms are differentiated by color, with each color having a different spawn chance.
@@ -18,9 +19,49 @@ The colors available are:
 ## Location
 
 A common spawn location for Flabébé is to the **West** of the **Open Sky Titan** in **West Province (Area One)**.
-![Flabébé spawns are marked red](/catch/flabebe-spawns.png)
+
+<Map
+  location={[-340, 39]}
+  zoom={3}
+  markers={[
+    {
+      location: [-331.7, 38.5],
+    },
+    {
+      location: [-334, 37.5],
+    },
+    {
+      location: [-342, 40],
+    },
+  ]}
+/>
+
 Another common spawn location is **South** of **Cortondo**, close to the Ocean.
-![Flabébé spawns are marked red](/catch/flabebe-spawns-2.png)
+
+<Map
+  location={[-466, 191]}
+  zoom={3}
+  markers={[
+    {
+      location: [-464, 196],
+    },
+    {
+      location: [-460, 194],
+    },
+    {
+      location: [-456, 189],
+    },
+    {
+      location: [-458.5, 189],
+    },
+    {
+      location: [-457.25, 190],
+    },
+    {
+      location: [-458.5, 187],
+    },
+  ]}
+/>
 
 <Aside type="note">Spawn locations are marked with red dots.</Aside>
 
