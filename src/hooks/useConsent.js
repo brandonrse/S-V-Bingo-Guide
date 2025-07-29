@@ -9,9 +9,11 @@ export const useConsent = () => {
       setConsent(detail.cookie.categories.includes("thirdPartyContent"))
     };
     window.addEventListener("cc:onChange", handler);
+    window.addEventListener("cc:onFirstConsent", handler);
 
     return () => {
       window.removeEventListener("cc:onChange", handler);
+      window.addEventListener("cc:onFirstConsent", handler);
     };
   }, []);
 
