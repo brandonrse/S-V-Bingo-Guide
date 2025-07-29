@@ -1,6 +1,7 @@
 import "leaflet/dist/leaflet.css";
+import markerIconPng from "leaflet/dist/images/marker-icon-2x.png"
 import "./Map.css";
-import L from "leaflet";
+import L, { Icon } from "leaflet";
 import { useEffect, useRef } from "preact/hooks";
 
 export default function Map({ location, zoom, markers }) {
@@ -28,7 +29,10 @@ export default function Map({ location, zoom, markers }) {
     }).addTo(actualMapRef.current);
 
     markers.forEach(marker => {
-      L.marker(marker.location, marker.options).addTo(actualMapRef.current);
+      L.marker(marker.location, {
+        ...marker.options,
+        icon: new Icon({ iconUrl: markerIconPng.src, iconSize: [25, 41], iconAnchor: [12, 41] })
+      }).addTo(actualMapRef.current);
     });
   }, [mapRef.current, actualMapRef.current]);
 
