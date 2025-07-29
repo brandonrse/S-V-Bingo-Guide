@@ -5,7 +5,7 @@ description: A goal that requires you to capture a number of former titan Pokém
 
 This goal requires you to catch either **one** or **two** former titan Pokémon.
 Former titan Pokémon are not just any Pokémon of that Titans species but a special encounter.
-They appear one in-game day after you have defeated their titan forms.
+They appear immediately after you defeated their titan forms.
 You can find them where you first encountered them. In order to start the battle, you need to interact with them.
 
 ## Locations
