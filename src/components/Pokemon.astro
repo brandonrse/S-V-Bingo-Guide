@@ -1,0 +1,10 @@
+---
+import { PokemonText } from "./PokemonText"
+const { name, displayName = undefined } = Astro.props
+---
+
+<PokemonText client:only="preact" name={name} displayName={displayName}>
+  <Fragment slot="fallback">
+    {displayName ?? name}
+  </Fragment>
+</PokemonText>

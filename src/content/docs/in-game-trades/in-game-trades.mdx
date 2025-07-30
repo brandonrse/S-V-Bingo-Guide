@@ -4,6 +4,7 @@ description: A goal for obtaining a certain number of in-game trades.
 ---
 
 import Map from "../../../components/Map.astro";
+import Pokemon from "../../../components/Pokemon.astro";
 
 This goal requires you to perform a either two or three of in-game trades.
 
@@ -12,14 +13,14 @@ This goal requires you to perform a either two or three of in-game trades.
 ### Trade a Flabébé for a Snom
 
 **Location**: Cortondo<br />
-**Trade**: Flabébé -> Snom.
+**Trade**: <Pokemon name="flabebe" displayName="Flabébé" /> -> <Pokemon name="Snom" />.
 
 <Map
   location={[-400, 151]}
   zoom={3}
   markers={[
     {
-      location: [-385, 145],
+      location: [-384, 141],
     },
   ]}
 />
@@ -28,7 +29,7 @@ This goal requires you to perform a either two or three of in-game trades.
 ### Trade a Paldean Wooper for a Wooper
 
 **Location**: Cascarrafa<br />
-**Trade**: Paldean Wooper -> Regular Wooper <br />
+**Trade**: Paldean <Pokemon name="Wooper" /> -> Regular <Pokemon name="Wooper" /> <br />
 
 <Map
   location={[-272.7, 151]}
@@ -44,7 +45,7 @@ This goal requires you to perform a either two or three of in-game trades.
 ### Trade a Pincurchin for a Haunter
 
 **Location**: Levincia<br />
-**Trade**: Pincurchin -> Haunter
+**Trade**: <Pokemon name="Pincurchin" /> -> <Pokemon name="Haunter" />
 
 <Map location={[-300, 420]} zoom={3} markers={[{
   location: [-291, 415]

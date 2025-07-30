@@ -1,0 +1,123 @@
+.PokemonText {
+  text-decoration: underline dashed;
+  position: relative;
+  cursor: default;
+
+  .PokemonHint {
+    display: none;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 0;
+    border: 1px solid var(--sl-color-gray-5);
+    background-color: var(--sl-color-bg);
+    border-radius: 0.5rem;
+    width: max-content;
+    gap: 0.5rem;
+    padding: 0.5rem 0.25rem;
+    z-index: 100000;
+
+    img {
+      width: 64px;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+    }
+
+    .Types {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.25rem;
+
+      .Type {
+        margin: 0;
+        text-align: center;
+        border-radius: 0.5rem;
+        color: white;
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+        width: 100%;
+
+        &.bug {
+          background-color: #83ad25;
+        }
+
+        &.dark {
+          background-color: #463e3e;
+        }
+
+        &.dragon {
+          background-color: #4d64ab;
+        }
+
+        &.electric {
+          background-color: #e5c600;
+        }
+
+        &.fairy {
+          background-color: #d480cf;
+        }
+
+        &.fighting {
+          background-color: #a84c3d;
+        }
+
+        &.fire {
+          background-color: #e53b19;
+        }
+
+        &.flying {
+          background-color: #87b5e5;
+        }
+
+        &.ghost {
+          background-color: #633c64;
+        }
+
+        &.grass {
+          background-color: #58a951;
+        }
+
+        &.ground {
+          background-color: #a8995b;
+        }
+
+        &.ice {
+          background-color: #68baac;
+        }
+
+        &.normal {
+          background-color: #a8a899;
+        }
+
+        &.poison {
+          background-color: #864ab8;
+        }
+
+        &.psychic {
+          background-color: #e55973;
+        }
+
+        &.rock {
+          background-color: #956833;
+        }
+
+        &.steel {
+          background-color: #9999a8;
+        }
+
+        &.water {
+          background-color: #278bcc;
+        }
+      }
+    }
+  }
+
+  &:hover,
+  &:focus {
+    .PokemonHint {
+      display: flex;
+    }
+  }
+}
