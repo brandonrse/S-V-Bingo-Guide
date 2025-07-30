@@ -1,0 +1,48 @@
+---
+title: Obtain Armarouge / Ceruledge
+description: A goal that requires you to register either Armarouge or Ceruledege in your Pokédex.
+---
+
+import Pokemon from "../../../components/Pokemon.astro";
+import Map from "../../../components/Map.astro";
+import { Tabs, TabItem } from "@astrojs/starlight/components";
+
+This goal requires you to evolve a <Pokemon name="Charcadet" /> into either an <Pokemon name="Armarouge" /> or an <Pokemon name="Ceruledge" />,
+depending on which version you're playing.
+
+## Obtaining Charcadet
+
+The best way to catch <Pokemon name="Charcadet" /> is by encountering it at a set spawn location in **South Province (Area Three)**.
+
+<Map location={[-400, 300]} zoom={3} markers={[{
+  location: [-396, 293]
+}]} />
+
+## Evolving Charcadet
+
+<Pokemon name="Charcadet" />s evolution is triggered by a held item, which can
+be obtained by trading it with an NPC in Zapapico. The item the NPC wants is
+dependent on the version you're playing.
+
+<Map
+  location={[-275, 330]}
+  zoom={3}
+  markers={[
+    {
+      location: [-267, 319],
+    },
+  ]}
+/>
+
+<Tabs>
+  <TabItem label="Bronzor Fragments (Scarlet)">
+    The NPC wants you to obtain 10 Bronzor Fragments for trading. In return they
+    will give you an Auspicious Armor. You obtain Bronzor Fragments by defeating
+    <Pokemon name="Bronzor" /> either in battle or in roaming mode.
+  </TabItem>
+  <TabItem label="Sinistea Chips (Violet)">
+    The NPC wants you to obtain 10 Sinistea Chips for trading. In return they
+    will give you an Malicious Armor. You obtain Sinistea Chips by defeating
+    <Pokemon name="Sinistea" /> either in battle or in roaming mode.
+  </TabItem>
+</Tabs>
