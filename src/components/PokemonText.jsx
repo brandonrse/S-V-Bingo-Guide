@@ -1,10 +1,11 @@
 import { usePokemon } from "../hooks/usePokemon";
+import { usePokemonBatch } from "../hooks/usePokemonBatch";
 import { capitalize } from "../util/capitalize"
 import "./PokemonText.css";
 
 export function PokemonText({ name, displayName = undefined }) {
-  const entry = usePokemon(name);
-
+  const entries = usePokemonBatch(name ? [name.toLowerCase()] : []);
+  const entry = entries && entries.length > 0 ? entries[0] : null;
   return (
     <span className="PokemonText">
       {displayName ?? name}
