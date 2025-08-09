@@ -37,6 +37,10 @@ export default defineConfig({
           autogenerate: { directory: "evolutions" },
         },
         {
+          label: "Hatch an Egg",
+          autogenerate: { directory: "egg" },
+        },
+        {
           label: "In-Game Trades",
           autogenerate: { directory: "in-game-trades" },
         },
