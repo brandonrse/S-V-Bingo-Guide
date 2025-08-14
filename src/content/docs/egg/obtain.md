@@ -1,5 +1,5 @@
 ---
-title: Obtain an Egg
+title: Hatch an Egg
 description: A goal for obtaining and hatching an egg.
 ---
 
