@@ -18,7 +18,5 @@ export const areCompatible = (p1, p2) => {
   }
 
   const overlap = p1.eggGroups.some(g => p2.eggGroups.includes(g));
-  if (!overlap) { return false; }
-
-  return true;
+  return overlap;
 }
