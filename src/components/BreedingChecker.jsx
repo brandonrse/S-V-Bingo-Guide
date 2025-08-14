@@ -1,6 +1,6 @@
 import { useState } from "preact/hooks";
 import { usePokemonBatch } from "../hooks/usePokemonBatch";
-import { areCompatible } from "../hooks/areCompatible";
+import { areCompatible } from "../util/areCompatible";
 import { capitalize } from "../util/capitalize";
 import { useDebouncedValue } from "../hooks/debounce";
 
@@ -41,21 +41,21 @@ export default function BreedingChecker() {
           <tr>
             <th></th>
             {pokemon.map((p, i) => (
-              <th key={i}>{displayName(p, i)}<img src={p?.img} alt={p?.name} width="50"></img></th>
+              <th key={`head-${i}`}>{displayName(p, i)}<img src={p?.img} alt={p?.name} width="50"></img></th>
             ))}
           </tr>
         </thead>
         <tbody>
           {pokemon.map((p1, i) => (
-            <tr key={i}>
+            <tr key={`row-${i}`}>
               <th>{displayName(p1, i)}<img src={p1?.img} alt={p1?.name} width="50"></img></th>
               {pokemon.map((p2, j) => {
                 if (!p1 || !p2) {
-                  return <td key={j}>—</td>;
+                  return <td key={`cell-${i}-${j}`}>—</td>;
                 }
                 const compatible = areCompatible(p1, p2);
                 return (
-                  <td key={j} style={{ textAlign: "center" }}>
+                  <td key={`cell-${i}-${j}`} style={{ textAlign: "center" }}>
                     {compatible ? "✅" : "❌"}
                   </td>
                 );
