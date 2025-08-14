@@ -5,7 +5,7 @@ import "./PokemonText.css";
 
 export function PokemonText({ name, displayName = undefined }) {
   const entries = usePokemonBatch(name ? [name.toLowerCase()] : []);
-  const entry = entries && entries.length > 0 ? entries[0] : null;
+  const entry = entries?.length > 0 ? entries[0] : null;
   return (
     <span className="PokemonText">
       {displayName ?? name}
